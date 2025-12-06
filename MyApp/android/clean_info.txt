@@ -1,0 +1,495 @@
+Initialized native services in: C:\Users\manin\.gradle\native
+Initialized jansi services in: C:\Users\manin\.gradle\native
+Found daemon DaemonInfo{pid=12796, address=[08256808-b765-4e70-ba1f-0b768affe89e port:63581, addresses:[/127.0.0.1]], state=Idle, lastBusy=1764958034479, context=DefaultDaemonContext[uid=78e28f36-44f8-4f88-a2ef-a6605831b214,javaHome=C:\Program Files\Java\jdk-17,javaVersion=17,javaVendor=Oracle Corporation,daemonRegistryDir=C:\Users\manin\.gradle\daemon,pid=12796,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=512m,-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=IN,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+At least one daemon option is different.
+Wanted: DaemonRequestContext{jvmCriteria=C:\Program Files\Java\jdk-17 (no JDK specified, using current Java home), daemonOpts=[-XX:MaxMetaspaceSize=512m, -Xmx2048m, -Dfile.encoding=windows-1252, -Duser.country=IN, -Duser.language=en, -Duser.variant], applyInstrumentationAgent=true, nativeServicesMode=ENABLED, priority=NORMAL}
+Actual: DefaultDaemonContext[uid=78e28f36-44f8-4f88-a2ef-a6605831b214,javaHome=C:\Program Files\Java\jdk-17,javaVersion=17,javaVendor=Oracle Corporation,daemonRegistryDir=C:\Users\manin\.gradle\daemon,pid=12796,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=512m,-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=IN,-Duser.language=en,-Duser.variant]
+
+  Looking for a different daemon...
+The client will now receive all logging from the daemon (pid: 15140). The daemon log file: C:\Users\manin\.gradle\daemon\9.0.0\daemon-15140.out.log
+Starting 10th build in daemon [uptime: 32 mins 13.211 secs, performance: 100%, GC rate: 0.00/s, heap usage: 7% of 2 GiB, non-heap usage: 36% of 512 MiB]
+Using 16 worker leases.
+Now considering [C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\android, C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\node_modules\@react-native\gradle-plugin, Z:\node_modules\@react-native\gradle-plugin, Z:\android] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Now considering [C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\node_modules\@react-native\gradle-plugin, C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\android, Z:\node_modules\@react-native\gradle-plugin, Z:\android] as hierarchies to watch
+Resolved plugin [id: 'org.gradle.toolchains.foojay-resolver-convention', version: '0.5.0']
+
+> Configure project :gradle-plugin
+Evaluating project ':gradle-plugin' using build file 'C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\node_modules\@react-native\gradle-plugin\build.gradle.kts'.
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '2.1.20', apply: false]
+Resolved plugin [id: 'com.ncorti.ktfmt.gradle', version: '0.22.0']
+
+> Configure project :gradle-plugin:react-native-gradle-plugin
+Evaluating project ':gradle-plugin:react-native-gradle-plugin' using build file 'C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\node_modules\@react-native\gradle-plugin\react-native-gradle-plugin\build.gradle.kts'.
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '2.1.20']
+Resolved plugin [id: 'com.ncorti.ktfmt.gradle', version: '0.22.0']
+Resolved plugin [id: 'java-gradle-plugin']
+Build 00319eb6-0b60-4358-a85e-53a9a8a52377 is started
+Using Kotlin Gradle Plugin gradle85 variant
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+
+> Configure project :gradle-plugin:settings-plugin
+Evaluating project ':gradle-plugin:settings-plugin' using build file 'C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\node_modules\@react-native\gradle-plugin\settings-plugin\build.gradle.kts'.
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '2.1.20']
+Resolved plugin [id: 'com.ncorti.ktfmt.gradle', version: '0.22.0']
+Resolved plugin [id: 'java-gradle-plugin']
+Using Kotlin Gradle Plugin gradle85 variant
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+
+> Configure project :gradle-plugin:shared
+Evaluating project ':gradle-plugin:shared' using build file 'C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\node_modules\@react-native\gradle-plugin\shared\build.gradle.kts'.
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '2.1.20']
+Resolved plugin [id: 'com.ncorti.ktfmt.gradle', version: '0.22.0']
+Using Kotlin Gradle Plugin gradle85 variant
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+
+> Configure project :gradle-plugin:shared-testutil
+Evaluating project ':gradle-plugin:shared-testutil' using build file 'C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\node_modules\@react-native\gradle-plugin\shared-testutil\build.gradle.kts'.
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '2.1.20']
+Resolved plugin [id: 'com.ncorti.ktfmt.gradle', version: '0.22.0']
+Using Kotlin Gradle Plugin gradle85 variant
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+Resolved plugin [id: 'com.facebook.react.settings']
+Directory 'C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot' (Windows Registry) auto-detected used for java installations does not exist
+Resolve mutations for :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker,5,main]) started.
+:gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker Thread 10,5,main]) started.
+
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+Resolve mutations for :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker Thread 10,5,main]) started.
+:gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker Thread 3,5,main]) started.
+
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+Resolve mutations for :gradle-plugin:shared:compileKotlin (Thread[Execution worker Thread 3,5,main]) started.
+:gradle-plugin:shared:compileKotlin (Thread[Execution worker Thread 3,5,main]) started.
+
+> Task :gradle-plugin:shared:compileKotlin UP-TO-DATE
+Caching disabled for task ':gradle-plugin:shared:compileKotlin' because:
+  Build cache is disabled
+Skipping task ':gradle-plugin:shared:compileKotlin' as it is up-to-date.
+Resolve mutations for :gradle-plugin:shared:compileJava (Thread[Execution worker Thread 3,5,main]) started.
+:gradle-plugin:shared:compileJava (Thread[Execution worker Thread 3,5,main]) started.
+
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+Skipping task ':gradle-plugin:shared:compileJava' as it has no source files and no previous output files.
+Resolve mutations for :gradle-plugin:shared:processResources (Thread[Execution worker Thread 3,5,main]) started.
+:gradle-plugin:shared:processResources (Thread[Execution worker Thread 3,5,main]) started.
+
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+Skipping task ':gradle-plugin:shared:processResources' as it has no source files and no previous output files.
+Resolve mutations for :gradle-plugin:shared:classes (Thread[Execution worker Thread 3,5,main]) started.
+:gradle-plugin:shared:classes (Thread[Execution worker Thread 3,5,main]) started.
+
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+Skipping task ':gradle-plugin:shared:classes' as it has no actions.
+Resolve mutations for :gradle-plugin:shared:jar (Thread[Execution worker Thread 4,5,main]) started.
+:gradle-plugin:shared:jar (Thread[Execution worker Thread 4,5,main]) started.
+
+> Task :gradle-plugin:shared:jar UP-TO-DATE
+Caching disabled for task ':gradle-plugin:shared:jar' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':gradle-plugin:shared:jar' as it is up-to-date.
+work action resolve shared.jar (project :gradle-plugin:shared) (Thread[Execution worker Thread 4,5,main]) started.
+Resolve mutations for :gradle-plugin:settings-plugin:compileKotlin (Thread[Execution worker Thread 4,5,main]) started.
+:gradle-plugin:settings-plugin:compileKotlin (Thread[Execution worker Thread 4,5,main]) started.
+
+> Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
+Caching disabled for task ':gradle-plugin:settings-plugin:compileKotlin' because:
+  Build cache is disabled
+Skipping task ':gradle-plugin:settings-plugin:compileKotlin' as it is up-to-date.
+Resolve mutations for :gradle-plugin:settings-plugin:compileJava (Thread[Execution worker Thread 4,5,main]) started.
+:gradle-plugin:settings-plugin:compileJava (Thread[Execution worker Thread 4,5,main]) started.
+
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+Skipping task ':gradle-plugin:settings-plugin:compileJava' as it has no source files and no previous output files.
+Resolve mutations for :gradle-plugin:settings-plugin:pluginDescriptors (Thread[Execution worker Thread 4,5,main]) started.
+:gradle-plugin:settings-plugin:pluginDescriptors (Thread[Execution worker Thread 4,5,main]) started.
+
+> Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
+Caching disabled for task ':gradle-plugin:settings-plugin:pluginDescriptors' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':gradle-plugin:settings-plugin:pluginDescriptors' as it is up-to-date.
+Resolve mutations for :gradle-plugin:settings-plugin:processResources (Thread[Execution worker Thread 4,5,main]) started.
+:gradle-plugin:settings-plugin:processResources (Thread[Execution worker Thread 4,5,main]) started.
+
+> Task :gradle-plugin:settings-plugin:processResources UP-TO-DATE
+Caching disabled for task ':gradle-plugin:settings-plugin:processResources' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':gradle-plugin:settings-plugin:processResources' as it is up-to-date.
+Resolve mutations for :gradle-plugin:settings-plugin:classes (Thread[Execution worker Thread 4,5,main]) started.
+:gradle-plugin:settings-plugin:classes (Thread[Execution worker Thread 2,5,main]) started.
+
+> Task :gradle-plugin:settings-plugin:classes UP-TO-DATE
+Skipping task ':gradle-plugin:settings-plugin:classes' as it has no actions.
+Resolve mutations for :gradle-plugin:settings-plugin:jar (Thread[Execution worker Thread 2,5,main]) started.
+:gradle-plugin:settings-plugin:jar (Thread[Execution worker Thread 2,5,main]) started.
+
+> Task :gradle-plugin:settings-plugin:jar UP-TO-DATE
+Caching disabled for task ':gradle-plugin:settings-plugin:jar' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':gradle-plugin:settings-plugin:jar' as it is up-to-date.
+Settings evaluated using settings file 'C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\android\settings.gradle'.
+Projects loaded. Root project using build file 'C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\android\build.gradle'.
+Included projects: [root project 'MyApp', project ':app', project ':react-native-linear-gradient', project ':react-native-safe-area-context', project ':react-native-screens', project ':react-native-svg', project ':react-native-vector-icons']
+Registering project ':gradle-plugin' in composite build. Will substitute for module ':gradle-plugin-root'.
+Registering project ':gradle-plugin:react-native-gradle-plugin' in composite build. Will substitute for module 'com.facebook.react:react-native-gradle-plugin'.
+Registering project ':gradle-plugin:settings-plugin' in composite build. Will substitute for module 'com.facebook.react:settings-plugin'.
+Registering project ':gradle-plugin:shared' in composite build. Will substitute for module 'com.facebook.react:shared'.
+Registering project ':gradle-plugin:shared-testutil' in composite build. Will substitute for module 'com.facebook.react:shared-testutil'.
+Resolve mutations for :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker Thread 14,5,main]) started.
+:gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker Thread 8,5,main]) started.
+
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+Resolve mutations for :gradle-plugin:react-native-gradle-plugin:compileKotlin (Thread[Execution worker Thread 8,5,main]) started.
+:gradle-plugin:react-native-gradle-plugin:compileKotlin (Thread[Execution worker Thread 8,5,main]) started.
+
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
+Caching disabled for task ':gradle-plugin:react-native-gradle-plugin:compileKotlin' because:
+  Build cache is disabled
+Skipping task ':gradle-plugin:react-native-gradle-plugin:compileKotlin' as it is up-to-date.
+Resolve mutations for :gradle-plugin:react-native-gradle-plugin:compileJava (Thread[Execution worker Thread 8,5,main]) started.
+:gradle-plugin:react-native-gradle-plugin:compileJava (Thread[Execution worker Thread 12,5,main]) started.
+
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+Skipping task ':gradle-plugin:react-native-gradle-plugin:compileJava' as it has no source files and no previous output files.
+Resolve mutations for :gradle-plugin:react-native-gradle-plugin:pluginDescriptors (Thread[Execution worker Thread 12,5,main]) started.
+:gradle-plugin:react-native-gradle-plugin:pluginDescriptors (Thread[Execution worker Thread 12,5,main]) started.
+
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+Caching disabled for task ':gradle-plugin:react-native-gradle-plugin:pluginDescriptors' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':gradle-plugin:react-native-gradle-plugin:pluginDescriptors' as it is up-to-date.
+Resolve mutations for :gradle-plugin:react-native-gradle-plugin:processResources (Thread[Execution worker Thread 12,5,main]) started.
+:gradle-plugin:react-native-gradle-plugin:processResources (Thread[Execution worker Thread 12,5,main]) started.
+
+> Task :gradle-plugin:react-native-gradle-plugin:processResources UP-TO-DATE
+Caching disabled for task ':gradle-plugin:react-native-gradle-plugin:processResources' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':gradle-plugin:react-native-gradle-plugin:processResources' as it is up-to-date.
+Resolve mutations for :gradle-plugin:react-native-gradle-plugin:classes (Thread[Execution worker Thread 12,5,main]) started.
+:gradle-plugin:react-native-gradle-plugin:classes (Thread[Execution worker Thread 12,5,main]) started.
+
+> Task :gradle-plugin:react-native-gradle-plugin:classes UP-TO-DATE
+Skipping task ':gradle-plugin:react-native-gradle-plugin:classes' as it has no actions.
+Resolve mutations for :gradle-plugin:react-native-gradle-plugin:jar (Thread[Execution worker Thread 12,5,main]) started.
+:gradle-plugin:react-native-gradle-plugin:jar (Thread[Execution worker Thread 12,5,main]) started.
+
+> Task :gradle-plugin:react-native-gradle-plugin:jar UP-TO-DATE
+Caching disabled for task ':gradle-plugin:react-native-gradle-plugin:jar' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':gradle-plugin:react-native-gradle-plugin:jar' as it is up-to-date.
+
+> Configure project :app
+Evaluating project ':app' using build file 'C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\android\app\build.gradle'.
+Using default execution profile
+Build 006e9676-361e-41a4-8363-3a8257efbdb7 is started
+Using Kotlin Gradle Plugin gradle85 variant
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\manin\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\manin\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\manin\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\manin\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\manin\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\manin\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\manin\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\manin\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\manin\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\manin\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\manin\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\manin\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\manin\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\manin\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\manin\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\manin\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\manin\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\manin\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\manin\AppData\Local\Android\Sdk
+
+> Configure project :
+Evaluating root project 'MyApp' using build file 'C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\android\build.gradle'.
+Found project 'project :gradle-plugin:react-native-gradle-plugin' as substitute for module 'com.facebook.react:react-native-gradle-plugin'.
+Ignoring listeners of task graph ready event, as this build (:gradle-plugin) has already executed work.
+
+> Configure project :react-native-linear-gradient
+Evaluating project ':react-native-linear-gradient' using build file 'C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\node_modules\react-native-linear-gradient\android\build.gradle'.
+Using default execution profile
+
+> Configure project :react-native-safe-area-context
+Evaluating project ':react-native-safe-area-context' using build file 'C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\node_modules\react-native-safe-area-context\android\build.gradle'.
+Using default execution profile
+Using Kotlin Gradle Plugin gradle85 variant
+
+> Configure project :react-native-screens
+Evaluating project ':react-native-screens' using build file 'C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\node_modules\react-native-screens\android\build.gradle'.
+Using default execution profile
+Using Kotlin Gradle Plugin gradle85 variant
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\manin\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\manin\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\manin\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\manin\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\manin\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\manin\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\manin\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\manin\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\manin\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\manin\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\manin\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\manin\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [27.1.12297006]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\manin\AppData\Local\Android\Sdk
+
+> Configure project :react-native-svg
+Evaluating project ':react-native-svg' using build file 'C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\node_modules\react-native-svg\android\build.gradle'.
+Using default execution profile
+Starting process 'command 'node''. Working directory: C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\android Command: node --print require.resolve('react-native/package.json')
+Successfully started process 'command 'node''
+Starting process 'command 'node''. Working directory: C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\android Command: node --print require.resolve('react-native/package.json')
+Successfully started process 'command 'node''
+
+> Configure project :react-native-vector-icons
+Evaluating project ':react-native-vector-icons' using build file 'C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\node_modules\react-native-vector-icons\android\build.gradle'.
+Using default execution profile
+All projects evaluated.
+Task name matched 'clean'
+Selected primary task 'clean' from project :
+Tasks to be executed: [task ':app:externalNativeBuildCleanDebug', task ':app:externalNativeBuildCleanDebugOptimized', task ':app:externalNativeBuildCleanRelease', task ':app:clean', task ':react-native-linear-gradient:clean', task ':react-native-safe-area-context:clean', task ':react-native-screens:externalNativeBuildCleanDebug', task ':react-native-screens:externalNativeBuildCleanRelease', task ':react-native-screens:clean', task ':react-native-svg:clean', task ':react-native-vector-icons:clean']
+Tasks that were excluded: []
+Resolve mutations for :app:externalNativeBuildCleanDebug (Thread[Execution worker Thread 14,5,main]) started.
+:app:externalNativeBuildCleanDebug (Thread[Execution worker Thread 7,5,main]) started.
+
+> Task :app:externalNativeBuildCleanDebug
+Caching disabled for task ':app:externalNativeBuildCleanDebug' because:
+  Build cache is disabled
+Task ':app:externalNativeBuildCleanDebug' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+C/C++: starting clean
+C/C++: finding existing JSONs
+C/C++: Json file not found so contents couldn't be cleaned C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\android\app\.cxx\Debug\1g6n2n5q\armeabi-v7a\android_gradle_build.json
+C/C++: Json file not found so contents couldn't be cleaned C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\android\app\.cxx\Debug\1g6n2n5q\arm64-v8a\android_gradle_build.json
+C/C++: Json file not found so contents couldn't be cleaned C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\android\app\.cxx\Debug\1g6n2n5q\x86\android_gradle_build.json
+C/C++: Json file not found so contents couldn't be cleaned C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\android\app\.cxx\Debug\1g6n2n5q\x86_64\android_gradle_build.json
+C/C++: Json file not found so contents couldn't be cleaned C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\android\app\.cxx\Debug\1g6n2n5q\riscv64\android_gradle_build.json
+C/C++: about to execute 0 clean command batches
+C/C++: clean complete
+Resolve mutations for :app:externalNativeBuildCleanDebugOptimized (Thread[Execution worker Thread 7,5,main]) started.
+:app:externalNativeBuildCleanDebugOptimized (Thread[Execution worker Thread 14,5,main]) started.
+
+> Task :app:externalNativeBuildCleanDebugOptimized
+Caching disabled for task ':app:externalNativeBuildCleanDebugOptimized' because:
+  Build cache is disabled
+Task ':app:externalNativeBuildCleanDebugOptimized' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+C/C++: starting clean
+C/C++: finding existing JSONs
+C/C++: Json file not found so contents couldn't be cleaned C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\android\app\.cxx\Release\4u4e1r3k\armeabi-v7a\android_gradle_build.json
+C/C++: Json file not found so contents couldn't be cleaned C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\android\app\.cxx\Release\4u4e1r3k\arm64-v8a\android_gradle_build.json
+C/C++: Json file not found so contents couldn't be cleaned C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\android\app\.cxx\Release\4u4e1r3k\x86\android_gradle_build.json
+C/C++: Json file not found so contents couldn't be cleaned C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\android\app\.cxx\Release\4u4e1r3k\x86_64\android_gradle_build.json
+C/C++: Json file not found so contents couldn't be cleaned C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\android\app\.cxx\Release\4u4e1r3k\riscv64\android_gradle_build.json
+C/C++: about to execute 0 clean command batches
+C/C++: clean complete
+Resolve mutations for :app:externalNativeBuildCleanRelease (Thread[Execution worker Thread 14,5,main]) started.
+:app:externalNativeBuildCleanRelease (Thread[Execution worker Thread 14,5,main]) started.
+
+> Task :app:externalNativeBuildCleanRelease
+Caching disabled for task ':app:externalNativeBuildCleanRelease' because:
+  Build cache is disabled
+Task ':app:externalNativeBuildCleanRelease' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+C/C++: starting clean
+C/C++: finding existing JSONs
+C/C++: Json file not found so contents couldn't be cleaned C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\android\app\.cxx\RelWithDebInfo\2m2s6j37\armeabi-v7a\android_gradle_build.json
+C/C++: Json file not found so contents couldn't be cleaned C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\android\app\.cxx\RelWithDebInfo\2m2s6j37\x86\android_gradle_build.json
+C/C++: Json file not found so contents couldn't be cleaned C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\android\app\.cxx\RelWithDebInfo\2m2s6j37\x86_64\android_gradle_build.json
+C/C++: Json file not found so contents couldn't be cleaned C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\android\app\.cxx\RelWithDebInfo\2m2s6j37\riscv64\android_gradle_build.json
+C/C++: about to execute 1 clean command batches
+Clean react_codegen_RNVectorIconsSpec-arm64-v8a, react_codegen_safeareacontext-arm64-v8a, react_codegen_rnscreens-arm64-v8a, appmodules-arm64-v8a, react_codegen_rnsvg-arm64-v8a
+C/C++: @echo off
+"C:\\Users\\manin\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe" ^
+  -C ^
+  "C:\\Users\\manin\\OneDrive\\Desktop\\MobilemanagmentDemp\\MyApp\\android\\app\\.cxx\\RelWithDebInfo\\2m2s6j37\\arm64-v8a" ^
+  clean
+
+Starting process 'command 'C:\Users\manin\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe''. Working directory: C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\android\app Command: C:\Users\manin\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe -C C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\android\app\.cxx\RelWithDebInfo\2m2s6j37\arm64-v8a clean
+Successfully started process 'command 'C:\Users\manin\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe''
+C/C++: Received process result: 0
+C/C++: clean complete
+Resolve mutations for :app:clean (Thread[Execution worker Thread 14,5,main]) started.
+:app:clean (Thread[Execution worker Thread 14,5,main]) started.
+
+> Task :app:clean FAILED
+Caching disabled for task ':app:clean' because:
+  Build cache is disabled
+Task ':app:clean' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+Build 00319eb6-0b60-4358-a85e-53a9a8a52377 is closed
+Build 006e9676-361e-41a4-8363-3a8257efbdb7 is closed
+
+[Incubating] Problems report is available at: file:///C:/Users/manin/OneDrive/Desktop/MobilemanagmentDemp/MyApp/android/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:clean'.
+> java.io.IOException: Unable to delete directory 'C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\android\app\build'
+    Failed to delete some children. This might happen because a process has files open or has its working directory set in the target directory.
+    - C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\android\app\build\outputs\apk\debug
+    - C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\android\app\build\outputs\apk
+    - C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\android\app\build\outputs
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+> Run with --scan to generate a Build Scan (Powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.0.0/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 4s
+14 actionable tasks: 4 executed, 10 up-to-date
+Watched directory hierarchies: [C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\node_modules\@react-native\gradle-plugin, C:\Users\manin\OneDrive\Desktop\MobilemanagmentDemp\MyApp\android, Z:\node_modules\@react-native\gradle-plugin, Z:\android]
